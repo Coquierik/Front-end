@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/sb-logo.ico" type="img/x-icon">
+    <title>Saude & Beleza</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <!--Aqui vai o topo do site-->
+    <header>
+        <h3>Saúde & Beleza</h3>
+        <h4>Tudo para o seu bem estar diário</h4>
+
+        <!--Aqui vamos inserir os links do site-->
+        <!--
+        <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre</a>
+        <a href="#">Cursos</a>
+        </nav>
+        -->
+    </header>
+
+    
+    <br>
+    <div id="whats">
+        <p><strong>Agende sua consulta</strong></p>
+        <a href="https://api.whatsapp.com/send?phone=551140028922&text=Ol%C3%A1,%20gostaria%20de%20fazer%20o%20seguinte%20pedido">
+        <img src="img/whats.webp" alt="Whatsapp">
+        </a>
+    </div>
+
+    <!--Topo complementar-->
+    <section class="grid-conteudo">
+        <div class="grid">
+
+            <div><img class="img-site" src="img/topo-site.webp" alt="Enfermeira-Saude-Beleza"></div>
+
+            <div>
+                <h1>Agende sua avaliação hoje mesmo</h1>
+                <br>
+                <h2>Seja a sua prioridade, cuide da sua saúde e bem-estar. Tenha uma vida plena</h2>
+                
+                <script>
+
+                    function escrita(elemento){
+                        const textoArray = elemento.innerHTML.split('');
+                        elemento.innerHTML = '';
+                        
+                        textoArray.forEach((letra, i) => {
+                            setTimeout(function(){
+                                elemento.innerHTML += letra;
+                            }, 80*i)
+                        });
+                    }
+
+                    const animacao = document.querySelector('h2');
+                    escrita(animacao);
+
+                </script>
+
+                <br>
+
+                <p>
+                    O autocuidado é um ato de amor próprio, priorize-se e cuide de sí mesmo. <br>
+                    Descubra como o bem-estar pessoal pode irradiar para todas as áreas da sua vida!
+                </p>
+                <br>
+                <a class="btn" href="#">Agendar Avaliação</a>
+            </div>
+
+        </div>
+
+    </section>
+    <br>
+
+    <!--Nesta sessão estamos exibindo os preços dos serviços mesmo com o nome "equipe"-->
+
+    
+
+    <main>
+        <article>
+            
+            
+            <h2>Seja bem vindo(a)!</h2>
+
+            <h2>Saúde & Beleza - Cuidando de Você por Dentro e por Fora </h2>
+
+            <p>
+            Nossa principal tarefa é ajudar cada pessoa a se redescobrir e a cultivar o autocuidado como parte essencial de sua rotina.
+            <br>
+            Acreditamos que a verdadeira beleza vem de um corpo e mente equilibrados, e, para isso, oferecemos um espaço dedicado a práticas que melhoram a saúde e promovem o bem-estar.
+            </p><br>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3O7kf0ssMrk?si=WPq3bV5WUEx9cjkw" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+
+            </div>
+            <br>
+            <a class="btn" href="#">Saiba mais</a>
+            <br>
+            <h2>Nossos Serviços</h2>
+            <p>
+
+            <ul>
+                <li><strong>Estética Facial e Corporal:</strong> Oferecemos soluções inovadoras, sempre respeitando a individualidade de cada cliente. Desde limpeza de pele até terapias de rejuvenescimento, nossa equipe está preparada para proporcionar uma experiência única e relaxante.</li><br>
+                <li><strong>Cuidados Capilares:</strong> Nossos especialistas oferecem cuidados personalizados para o fortalecimento, hidratação e revitalização dos fios. Trabalhamos com produtos de alta qualidade para todos os tipos de cabelo.</li><br>
+                <li><strong>Bem-estar e Relaxamento:</strong> Yoga, massagens e terapias alternativas estão entre os serviços que promovem relaxamento e recuperação. Nosso objetivo é criar um ambiente onde cada pessoa possa relaxar e recarregar suas energias.</li><br>
+                <li><strong>Consultoria de Autocuidado:</strong> Oferecemos sessões para quem deseja criar uma rotina de beleza e saúde personalizada, entendendo o que é essencial para alcançar um equilíbrio no dia a dia.</li><br>
+            </ul>
+            <br>
+
+            </p>
+
+            <p id="servicos">CLIQUE EM AGENDAR E GANHE UMA SESSÃO GRÁTIS</p>
+            
+    <section class="grid-equipe">
+
+        <div class="grid-equipe-sb">
+
+            <div>
+                <img src="img/facial.webp" alt="Tratamento facial"> <br> 
+                <a class="btn" href="#">Agendar</a><br>
+
+            </div>
+            <div>
+                <img src="img/cabelo.webp" alt="Tratamento Capilar"> <br> 
+                <a class="btn" href="#">Agendar</a><br>
+
+            </div>
+            <div>
+                <img src="img/relaxamento.webp" alt="Relaxamento"> <br> 
+                <a class="btn" href="#">Agendar</a><br>
+
+            </div>
+
+        </div>
+    </section>
+
+            <br><br>
+            <h2>Nossa Missão</h2>
+            <br>
+
+            <p>
+            Queremos fazer parte da sua jornada de autocuidado, oferecendo mais que tratamentos – proporcionando experiências.
+            <br>
+            Acreditamos que pequenos cuidados diários transformam vidas e fortalecem a confiança, permitindo que cada pessoa possa se sentir bem consigo mesma. 
+            <br>
+            Na Saúde & Beleza, estamos aqui para apoiar sua beleza única e autêntica.
+
+
+            </p>
+
+
+
+        </article>
+        
+    </main>
+
+    <br>
+    <div class="separador-conteudo"></div>
+    <br>
+
+    <aside>
+
+        <h2 class="equipe-sb">Conheça nossa equipe de especialistas</h2>
+
+        <section class="grid-equipe">
+
+            <div class="grid-equipe-sb">
+
+                <div><img class="img-site" src="img/equipe1.webp" alt="Funcionario(a) 1"> <br> 
+                    <a class="btn" href="#">Dra.Aline</a><br>
+                    <p class="especialistas">Estética Facial e Corporal</p>
+                </div>
+                <div><img class="img-site" src="img/equipe2.webp" alt="Funcionario(a) 2"> <br> 
+                    <a class="btn" href="#">Dra.Paula</a><br>
+                    <p class="especialistas">Cuidados Capilares</p>
+                </div>
+                <div><img class="img-site" src="img/equipe3.webp" alt="Funcionario(a) 3"> <br> 
+                    <a class="btn" href="#">Dr.Marcos</a><br>
+                    <p class="especialistas">Bem Estar e Relaxamento</p>
+                </div>
+
+            </div>
+        </section>
+
+    </aside>
+    <br>
+    <div class="separador-conteudo"></div>
+    <br>
+
+    <footer>
+
+        <h3>Saúde & Beleza</h3>
+        <h4>Tuda para o seu bem bem-estar diário.</h4>
+        <br>
+        <p>
+            Contato: sb.gmail.com <br>
+            Whatsapp: 4002 - 8922 (Somente Mensagens) <br>
+            CNPJ: 82.221.213/2131-31 <br>
+        </p>
+
+            <h4>Redes Sociais</h4>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="redes-sociais" src="img/Instagram.webp" alt="Logo Instagram">
+            </a>
+            
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class="redes-sociais" src="img/Youtube.webp" alt="Logo Tiktok">
+            </a>
+            
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img class="redes-sociais" src="img/Tiktok.webp" alt="Logo Youtube">
+            </a>
+        
+        <br>
+        <h6>Desenvolvido por: Coquierik.</h6>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
